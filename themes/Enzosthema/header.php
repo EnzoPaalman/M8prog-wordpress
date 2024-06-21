@@ -49,5 +49,8 @@
     </div>
 </nav>
 <?php wp_body_open() ?>
+<?php bloginfo('title') ?>
+<br>
+<?php the_title() ?>
 
 
